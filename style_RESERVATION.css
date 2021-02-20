@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #201F32;
+}
+.intro{
+    width: 100%;
+    border-top: 1px solid #912F2F;
+    
+    position: relative;
+    top: 150px;
+/*    top: 70px;*/
+}
+
+.title{
+    color: aliceblue;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title .h1,.h2{
+    text-align: center;
+    text-shadow: 3px 4px 6px rgb(0 0 0 / 45%);
+    
+}
+
+.title .h1{
+    font-size: calc(16px + 34 * ((100vw - 414px)/ 1186));
+    font-weight: 400;
+    
+}
+
+.title .h2{
+    font-size: calc(7px + 10 * ((100vw - 414px)/ 1186));
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+.P{
+    line-height: 1.7;
+    font-size: calc(7px + 10 * ((100vw - 414px)/ 1186));
+    font-weight: 200;
+    text-shadow: 3px 4px 6px rgb(0 0 0 / 45%);
+    
+}
+
+.title .reservez{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #BC3434;
+    padding: 10px 57px;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 45%);
+}
+
+.title .reservez:hover{
+    background-color: #23527C;
+}
+.title .reservez:focus{
+    background-color: #1c466c;
+    box-shadow: 0 0 0;
+}
+/*----------*//*------ Form ----*//*----------*//*----------*/
+
+.form{
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+
+
+.inputT{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #2B2C43;
+    background: #2B2C43;
+    color: aliceblue;
+    border-radius: 2px;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 45%);
+}
+
+.width{
+    width: 520px;
+}
+
+.ulTypeCar{
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+.ulTypeCar li{
+    list-style-type: none;
+    margin: 10px;
+}
+.ulTypeCar li img{
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    
+    
+}
+.ulTypeCar li .TypeCar{
+    text-decoration: none;
+    
+}
+
+/*---- input ----*/
+
+
+.tableInput{
+     display: flex;
+    width: 600px;
+        margin: auto;
+    margin-bottom: 30px;
+}
+.tdInput{
+    padding: 10px;
+    margin: 1px;
+    font-size: 15px;
+    width: 100%;
+    
+    background: #2B2C43;
+    color: aliceblue;
+    border-radius: 2px;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 45%);
+}
+.tdInput:hover{
+    cursor: pointer;
+    background: #23527C;
+    box-shadow: 0 0 0;
+}
+.tdInput:focus{
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0 0 0;
+}
+
+/*
+input[type="radio"]:focus{
+    background: #FFF;
+    display: none;
+}
+input[type="radio"]:checked {
+    display: none;
+
+}
+*/
+/*
+input[type="radio"]:checked + .btnInput {
+     background: #FFFFFF;
+
+}
+*/
+
+.input{
+    margin: 0px 5px 30px 5px;
+    padding-left: 10px;
+    border: 1px solid #2B2C43;
+    background: #2B2C43;
+    height: 43px;
+    width: 283px;
+    color: aliceblue;
+    border-radius: 2px;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 45%);
+    
+}

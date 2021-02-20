@@ -1,0 +1,170 @@
+/*----------*//*------ scrollbar ----*//*----------*/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: #BC3434;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #b0abab;
+}
+/*----------*//*------ navBar ----*//*----------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-style: bold;
+    
+}
+
+.navBar{
+    position: relative;
+    z-index: 10;
+    background-color: #262626;
+    height: 150px;
+    width: 100%;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 45%);
+    border-bottom: 1px solid #912F2F;
+    position: fixed;
+    transition: 0.5s;
+    
+}
+
+
+
+.navBar a{
+    top: 110px;
+    text-decoration: none;
+    color: aliceblue;
+    
+    position: relative;
+    left: 100px;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+.navBar a:hover{
+    color: #23527C;
+}
+
+.logo{
+    position: absolute;
+    z-index: 999;
+    margin: 20px 30px;
+    
+    transition: 0.5s;
+    position: fixed;
+}
+.logo img{
+    width: 130px;
+    transition: 0.5s;
+}
+
+.contact{
+    position: absolute;
+}
+
+@media only screen and (max-width: 880px) {
+    
+
+    .logo{
+        margin: 10px 30px;
+        transition: 0.5s;
+    }
+    .logo img{
+        width: 100px;
+        transition: 0.5s;
+    }
+    .navBar{
+    height: 70px;
+    position: relative;
+    z-index: 10;
+    background-color: #262626;
+    width: 100%;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 45%);
+    border-bottom: 1px solid #912F2F;
+    position: fixed;
+    transition: 0.5s;
+    
+}
+    .navBar.activeBar{
+    height: 350px;
+    position: relative;
+    z-index: 10;
+    background-color: #262626;
+    width: 100%;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 45%);
+    border-bottom: 1px solid #912F2F;
+    position: fixed;
+        transition: 0.5s;
+    
+}
+    .navBar a{
+      display: none;
+      padding: 10px;
+/*      border-top: 1px solid #666565;*/
+      left: 50px;
+      transition: 0.5s;
+    
+}
+  .navBar.activeBar a{
+      display: block;
+      padding: 10px;
+/*      border-top: 1px solid #666565;*/
+      left: 50px;
+      transition: 0.5s;
+    
+}
+    
+    .menu-toggle{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 15px 30px;
+
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #B3B0B0;
+        position: relative;
+        z-index: 99;
+				
+			}
+			.menu-toggle:before{
+                position: fixed;
+				content: '\f0c9';
+				font-family: fontAwesome;
+				line-height: 40px;
+			}
+			.menu-toggle.activeBar:before{
+				content: '\f00d';
+                position: fixed;
+			}
+    
+    
+}
+/*----------*//*------ btn scrollbar ----*//*----------*//*----------*/
+
+
+.btnTop{
+    
+    width: 60px;
+    position: fixed;
+    left: 1180px;
+    bottom: 20px;
+    transition: 0.5s;
+    
+}
+.btnTop:hover{
+    opacity: 1;
+    transition: 0.5s;
+    
+}
+
+.navBar .active{
+    color: #23527C;
+}
+

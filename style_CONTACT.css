@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #201F32;
+}
+.intro{
+    width: 100%;
+    border-top: 1px solid #912F2F;
+    position: relative;
+    top: 150px;
+}
+@media only screen and (max-width: 880px) {
+    .intro{
+    top: 70px;
+}
+}
+.title{
+    color: aliceblue;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title .h1,.h2{
+    text-align: center;
+    text-shadow: 3px 4px 6px rgb(0 0 0 / 45%);
+    
+}
+
+.title .h1{
+    font-size: calc(16px + 34 * ((100vw - 414px)/ 1186));
+    font-weight: 400;
+    
+}
+
+.title .h2{
+    font-size: calc(7px + 10 * ((100vw - 414px)/ 1186));
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+.P{
+    line-height: 1.7;
+    font-size: calc(7px + 10 * ((100vw - 414px)/ 1186));
+    font-weight: 200;
+    text-shadow: 3px 4px 6px rgb(0 0 0 / 45%);
+    
+}
+
+.title .reservez{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #BC3434;
+    padding: 10px 57px;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 45%);
+    border: none;
+}
+
+.title .reservez:hover{
+    background-color: #23527C;
+}
+.title .reservez:active{
+    background-color: #1c466c;
+    box-shadow: 0 0 0;
+}
+/*----------*//*------ Form ----*//*----------*//*----------*/
+
+.form{
+    margin-bottom: 10px;
+}
+/*
+::placeholder{
+    color: red;
+}
+*/
+
+.input{
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid #2B2C43;
+    background: #2B2C43;
+    height: 35px;
+    width: 250px;
+    color: aliceblue;
+    border-radius: 2px;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 45%);
+    
+}
+
+.inputT{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #2B2C43;
+    background: #2B2C43;
+    color: aliceblue;
+    border-radius: 2px;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 45%);
+}
+
+.width{
+    width: 520px;
+}
+
+.map{
+    margin: 30px;
+    margin-bottom: 140px;
+    position: relative;
+    top: 150px;
+}

@@ -1,0 +1,143 @@
+.intro{
+    width: 100%;
+    height: 470px;
+    background-image: url('image/intro.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    position: relative;
+    top: 150px;
+}
+@media only screen and (max-width: 880px) {
+    .intro{
+    height: 520px;
+    top: 70px;
+}
+}
+
+.title{
+    color: aliceblue;
+    padding: 38px;
+    text-align: center;
+}
+
+.title .h1,.h2{
+    text-align: center;
+    text-shadow: 3px 4px 6px rgb(0 0 0 / 45%);
+    
+}
+
+.title .h1{
+    font-size: calc(36px + 34 * ((100vw - 414px)/ 1186));
+    
+    font-weight: 400;
+}
+
+.title .h2{
+    font-size: calc(26px + 14 * ((100vw - 414px)/ 1186));
+    margin-bottom: 120px;
+    font-weight: 500;
+}
+
+.title .reservez{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #BC3434;
+    padding: 10px;
+}
+
+.title .reservez:hover{
+    background-color: #23527C;
+}
+
+
+/*----------*//*------ About Us ----*//*----------*//*----------*/
+.inAboutUs{
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.inAboutUs p{
+    font-weight: 300 !important;
+    font-family: 'Lato', sans-serif !important;
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #666;
+    line-height: 1.6;
+    display: block;
+    font-size: 14.5px;
+}
+.groupeFlex{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 650px;
+}
+@media only screen and (max-width: 880px){
+    .groupeFlex{
+    display: grid;
+    grid-template-columns: auto;
+    width: 650px;
+}
+
+}
+.titleAboutUsPro{
+    width: 70%;
+}
+
+.titleAboutUs{
+    text-align: left;
+    width: 270px;
+        
+}
+
+
+.titleAboutUsPro h1{
+    font-size: 60px;
+        
+}
+
+.titleAboutUs h3{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #333;
+    font-family: 'Lato', sans-serif !important;
+        
+}
+
+
+.BackImgAboutUs{
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            
+    background: url('image/BackImgAboutUs1.png') no-repeat   right;
+    background-size: cover;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    float: right;
+    
+    top: -400px;
+    z-index: -1;
+}
+@media only screen and (max-width: 880px) {
+.BackImgAboutUs{
+    width: 300px;
+    height: 250px;
+    
+    z-index: -1;
+}
+}
+@media only screen and (max-width: 580px) {
+.BackImgAboutUs{
+    width: 300px;
+    height: 250px;
+    
+    top: -400px;
+    z-index: -1;
+}
+}
